@@ -1,0 +1,95 @@
+header {
+    text-align: center;
+background-color: rgb(199, 194, 194);
+    border: 0px solid;
+    padding: 10px;
+    margin: 7px;
+}
+div.bir {
+
+display: block;
+border: 0px solid;
+}
+section.birinci {
+    border: 0px solid;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    width: 31.68%;
+    margin: 0px 0px 0px 7px;
+   
+    display: inline-block;
+  text-align: center;
+  background-color: rgb(88, 87, 87);
+  
+}
+
+
+
+section.ikinci {
+    border: 0px solid;
+   padding: 10px;  
+   display: inline-block;
+   width: 31.68%;
+  
+    
+    text-align: center;
+    background-color: rgb(156, 154, 154);
+   
+}
+section.ucuncu {
+    border: 0px solid;
+    display: inline-block;
+    padding: 10px;
+    float: right;
+    width: 31.68%;
+    margin: 0px 8px 0px 0px;
+   
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(88, 87, 87);
+}
+
+div.iki {
+    border: 0px solid;
+    margin: 7px ;
+    height: 10cm;
+    background-color: rgb(231, 226, 226);
+}
+section.dorduncu {
+    text-align: right;
+    border: 0px solid;
+    display: block;
+    height: 1cm;
+}
+ div.uc {
+     border: 0px solid;
+     background-color: rgb(120, 163, 243);
+     height: 50px;
+     text-align: right;
+     display: inline-block;
+     width: 39.78cm;
+
+ }
+ aside {
+     border: 0px solid;
+     background-color: white;
+     margin: 15px 0px 30px 60px;
+     display: inline-block;
+     height: 6cm;
+     width: 15cm;
+     float: left;
+ }
+ aside::before {
+     border: 1px solid;
+     content: "";
+     float: left; 
+     display: block;
+ }
+ footer {
+     border: 0px solid;
+     background-color: gray;
+     text-align: center;
+     padding: 10px;
+     margin: 5px;
+ }
